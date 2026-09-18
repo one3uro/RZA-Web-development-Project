@@ -1,0 +1,3 @@
+php links 
+http://localhost:8080/phpmyadmin/
+http://localhost:8080/index.php

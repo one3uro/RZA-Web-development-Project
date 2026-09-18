@@ -1,0 +1,183 @@
+.universialcontainer {
+  border-color: rgb(255, 0, 0);
+  border-style: dotted;
+  width: 100%; /* Changed from 100vw to 100% */
+  height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.navbar {
+  border-color: blueviolet;
+  border-style: dotted;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+}
+
+
+
+
+/*Navigation Bar Styling*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+/*Navigation Bar Styling*/
+
+
+/*Profile bar*/
+.profilebar {
+  list-style-type: none;
+  padding: 0 15px;
+  overflow: hidden;
+  background-color: #333333;
+  border-color: rgb(4, 255, 0);
+  border-style: dotted;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+}
+
+.logout-btn{
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 0px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.welmsg {
+  display: inline-flex; 
+  align-items: center; 
+  gap: 8px;             
+  color: white;
+  padding: 14px 0;      
+  font-size: 16px;
+}
+
+.welmsg .material-symbols-outlined {
+    font-size: 20px;    
+    vertical-align: middle;
+
+}
+
+.lr-text{
+    color: white;
+    text-decoration: none;
+}
+/*Profile bar*/
+
+
+.maincontainer {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 2px;
+}
+
+.homeslideshow{
+  border-color: #CA9A9A;
+  border-style: solid;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  
+}
+
+
+.slide {
+  width: 100%;
+  flex-grow: 1;
+  border-radius: 20px;
+  overflow: hidden; 
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+}
+
+.slideimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: monospace;
+  font-size: 13px;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #333;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.pagination .page.active {
+  background-color: lightpink;
+  color: #222;
+  font-weight: bold;
+  border-radius: 12px;
+  padding: 4px 10px;
+  min-width: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.pagination .dots {
+  padding: 0 4px;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
