@@ -1,0 +1,1 @@
+UPDATE signupform SET loyalty_points = loyalty_points + 1 WHERE id = 1;

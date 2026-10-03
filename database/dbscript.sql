@@ -1,0 +1,6 @@
+CREATE TABLE `signupform` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `email` VARCHAR(150) NOT NULL UNIQUE,
+  `username` VARCHAR(50) NOT NULL,
+  `hashed_password` VARCHAR(255) NOT NULL,
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
