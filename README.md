@@ -10,7 +10,7 @@ Because this project runs locally via a development environment, a full video wa
 
 Since this website is hosted locally using **XAMPP**, you can watch the comprehensive 9-minute feature demonstration on YouTube:
 
-🎥 **[Watch the RZA Webpage Showcase on YouTube](https://youtube.com)**
+🎥 **[Watch the RZA Webpage Showcase on YouTube](https://www.youtube.com/watch?v=cmDTEilvtX8)**
 
 ---
 
